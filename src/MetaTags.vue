@@ -38,7 +38,7 @@
 
 <script>
 module.exports = {
-  name: "HelloWorld",
+  name: "MetaTags",
   props: {
     msg: String
   }
