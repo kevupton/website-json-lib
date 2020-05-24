@@ -79,7 +79,7 @@
 </template>
 
 <script>
-export default {
+module.exports = {
   name: "HelloWorld",
   props: {
     msg: String

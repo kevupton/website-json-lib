@@ -1,0 +1,22 @@
+{
+  "name": "an.agency",
+  "components": [
+    {
+      "id": "page",
+      "path": "./src/Page.vue"
+    },
+    {
+      "id": "meta-tags",
+      "path": "./src/MetaTags.vue"
+    }
+  ],
+  "dependencies": [],
+  "layouts": [
+    {
+      "id": "pages",
+      "name": "Pages",
+      "path": "./src/PageLayout.vue",
+      "iconLeft": "class"
+    }
+  ]
+}
