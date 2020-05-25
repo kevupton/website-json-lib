@@ -6,8 +6,8 @@
       @change="(activeTab = $event)"
     >
       <md-tab id="generic" md-icon="home"></md-tab>
-      <md-tab id="facebook" md-icon="https://www.iconfinder.com/icons/5296500/download/svg/512"></md-tab>
-      <md-tab id="twitter" md-icon="https://www.iconfinder.com/icons/5296500/download/svg/512"></md-tab>
+      <md-tab id="facebook" md-icon="https://raw.githubusercontent.com/kevupton/website-json-lib/master/src/assets/facebook.svg"></md-tab>
+      <md-tab id="twitter" md-icon="https://raw.githubusercontent.com/kevupton/website-json-lib/master/src/assets/twitter.svg"></md-tab>
     </md-tabs>
     <md-content>
       <template v-if="activeTab === 'generic'">
