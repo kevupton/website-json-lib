@@ -7,7 +7,7 @@
 
 <script>
 module.exports = {
-  name: "HelloWorld",
+  name: "Page",
   props: ["value", "meta", "namespaceService"],
 
   mounted: function() {
