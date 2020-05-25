@@ -3,7 +3,7 @@
     <md-tabs
       class="md-primary"
       md-alignment="centered"
-      @change="(activeTab = $event)"
+      @md-change="(activeTab = $event)"
     >
       <md-tab id="generic" md-icon="home"></md-tab>
       <md-tab id="facebook" md-icon="https://raw.githubusercontent.com/kevupton/website-json-lib/master/src/assets/facebook.svg"></md-tab>
@@ -11,7 +11,7 @@
     </md-tabs>
     <md-content>
       <template v-if="activeTab === 'generic'">
-
+        Generic
       </template>
       <template v-else-if="activeTab === 'facebook'"> </template>
       <template v-else-if="activeTab === 'twitter'"> </template>
